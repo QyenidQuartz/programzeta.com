@@ -1,7 +1,7 @@
 #sidebar {
-    float:left;
     width:200px;
 }
 #main {
     width:600px;
+    float:left;
 }
