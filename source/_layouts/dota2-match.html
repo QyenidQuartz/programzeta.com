@@ -7,7 +7,7 @@
 </head>
 <body>
     <header><h1>{{ page.title }}</h1></header>
-    <div></div>
+    <div id="matchInfo"></div>
     <div id="awayTeam">
         {% assign teamSelect = page.match.team.away %}
         {% include team-selector.html %}
@@ -21,7 +21,7 @@
     <div id="picks">
         <ul>
         {% for pick in page.match.picks %}
-            <li>{{ pick }}</li>
+            <li>{{ pick.text }}</li>
         {% endfor %}
     </div>
     <footer></footer>
