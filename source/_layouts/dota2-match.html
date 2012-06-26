@@ -12,11 +12,9 @@
             {% if page.match.links.in-game %}
             <a href="{{ page.match.links.in-game }}">Click here to watch in-game (may require in-game pass)</a>
             {% endif %}
-            {% if page.match.links.vod %}
-                {% for vod in page.match.links.vods %}
-                    <a href="{{ vod.link }}">Casted by {{ vod.caster }}</a>
-                {% endfor %}
-            {% endif %}
+            {% for vod in page.match.links.vods %}
+                <a href="{{ vod.link }}">Casted by {{ vod.caster }}</a>
+            {% endfor %}
         </div>
     </div>
     <div id="awayTeam">
