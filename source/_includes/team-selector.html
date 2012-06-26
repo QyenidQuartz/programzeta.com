@@ -1,0 +1,8 @@
+<div class="teamName">{{ teamSelect.name }}</div>
+<div class="teamAbbr">
+{% case teamSelect.name  %}
+{% when "compLexity Gaming" %}
+coL
+{% else %}
+???
+{% endcase %}
