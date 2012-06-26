@@ -10,10 +10,10 @@
     <div id="matchInfo">
         <div id="watchMatch">
             {% if page.match.links.in-game %}
-            <a href="{{ page.match.links.in-game }}">Click here to watch in-game (may require in-game pass)</a>
+            <p><a href="{{ page.match.links.in-game }}">Click here to watch in-game (may require in-game pass)</a></p>
             {% endif %}
             {% for vod in page.match.links.vods %}
-                <a href="{{ vod.link }}">Casted by {{ vod.caster }}</a>
+                <p><a href="{{ vod.link }}">Casted by {{ vod.caster }}</a></p>
             {% endfor %}
         </div>
     </div>
