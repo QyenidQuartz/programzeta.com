@@ -1,8 +1,23 @@
-<div class="teamName">{{ teamSelect }}</div>
-<div class="teamAbbr">
-{% case teamSelect  %}
+{% capture teamAbbr %}{% case teamSelect  %}
 {% when "compLexity Gaming" %}
 coL
+{% when "Moscow Five" %}
+M5
 {% else %}
 ???
 {% endcase %}
+{% endcapture %}
+
+{% capture teamImage %}{% case teamSelect  %}
+{% when "compLexity Gaming" %}
+compLexity-Gaming.png
+{% when "Moscow Five" %}
+Moscow-Five.png
+{% else %}
+???
+{% endcase %}
+{% endcapture %}
+
+<div class="teamImage"><img src="/assets/teams/{{ teamImage }}" /></div>
+<div class="teamName">{{ teamSelect }}</div>
+<div class="teamAbbr">{{ teamAbbr }}</div>
