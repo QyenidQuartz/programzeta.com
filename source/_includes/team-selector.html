@@ -1,23 +1,15 @@
-{% capture teamAbbr %}{% case teamSelect  %}
+{% case teamSelect.name  %}
 {% when "compLexity Gaming" %}
-coL
+{% assign teamAbbr = 'coL' %}
+{% assign teamImage = 'compLexity-Gaming.png' %}
 {% when "Moscow Five" %}
-M5
+{% assign teamAbbr = 'M5' %}
+{% assign teamImage = 'Moscow-Five.png' %}
 {% else %}
-???
+{% assign teamAbbr = '???' %}
+{% assign teamImage = 'Unknown-Team.png' %}
 {% endcase %}
-{% endcapture %}
-
-{% capture teamImage %}{% case teamSelect  %}
-{% when "compLexity Gaming" %}
-compLexity-Gaming.png
-{% when "Moscow Five" %}
-Moscow-Five.png
-{% else %}
-???
-{% endcase %}
-{% endcapture %}
 
 <div class="teamImage"><img src="/assets/teams/{{ teamImage }}" /></div>
-<div class="teamName">{{ teamSelect }}</div>
+<div class="teamName">{{ teamSelect.name }}</div>
 <div class="teamAbbr">{{ teamAbbr }}</div>
