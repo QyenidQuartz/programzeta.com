@@ -7,6 +7,7 @@ match:
     team:
         away:
             name: compLexity Gaming
+            team: radiant
             player1:
             player2:
             player3:
@@ -14,32 +15,34 @@ match:
             player5:
         home:
             name: Moscow Five
+            team: dire
             player1:
             player2:
             player3:
             player4:
             player5:
     picks:
-        away-ban1: Leshrac
-        home-ban1: Dark Seer
-        away-ban2: Chaos Knight
-        home-ban2: Lycanthrope
-        away-ban3: Invoker
-        home-ban3: Chen
-        away-pick1: Nature's Profit
-        home-pick1: Sand King
-        home-pick2: Venomancer
-        away-pick2: Shadow Demon
-        away-pick3: Beastmaster
-        home-pick3: Enigma
-        away-ban2: Anti-Mage
-        home-ban2: Crystal Maiden
-        away-ban3: Nightstalker
-        home-ban3: Brewmaster
-        away-pick4: Queen of Pain
-        home-pick4: Morphling
-        away-pick5: Tidehunter
-        home-pick5: Windrunner
+        - [team   , type, number, hero            ]
+        - [radiant, ban , 1     , Leshrac         ]
+        - [dire   , ban , 1     , Dark Seer       ]
+        - [radiant, ban , 2     , Chaos Knight    ]
+        - [dire   , ban , 2     , Lycanthrope     ]
+        - [radiant, ban , 3     , Invoker         ]
+        - [dire   , ban , 3     , Chen            ]
+        - [radiant, pick, 1     , Nature's Prophet]
+        - [dire   , pick, 1     , Sand King       ]
+        - [dire   , pick, 2     , Venomancer      ]
+        - [radiant, pick, 2     , Shadow Demon    ]
+        - [radiant, pick, 3     , Beastmaster     ]
+        - [dire   , pick, 3     , Enigma          ]
+        - [radiant, ban , 4     , Anti-Mage       ]
+        - [dire   , ban , 4     , Crystal Maiden  ]
+        - [radiant, ban , 5     , Nightsatlker    ]
+        - [dire   , ban , 5     , Brewmaster      ]
+        - [radiant, pick, 4     , Queen of Pain   ]
+        - [dire   , pick, 4     , Morphling       ]
+        - [raidant, pick, 5     , Tidehunter      ]
+        - [dire   , pick, 5     , Windrunner      ]
     links:
         in-game: "dota2://matchid=21721650"
         vod:
