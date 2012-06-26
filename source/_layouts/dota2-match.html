@@ -10,7 +10,7 @@
     <div></div>
     <div id="awayTeam">
         {% capture teamSelect %}{ page.match.awayteam }{% endcapture %}
-
+        {% include team-selector %}
     </div>
     <div id="homeTeam">{{ page.team.home }}</div>
     <footer></footer>
