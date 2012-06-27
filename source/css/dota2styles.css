@@ -30,6 +30,10 @@ a:hover {
 	height:auto;
 }
 
+#picks ul {
+	width:600px;
+}
+
 #picks li {
 	display:block;
 	width:300px;
