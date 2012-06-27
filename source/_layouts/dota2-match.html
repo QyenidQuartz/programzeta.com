@@ -55,7 +55,7 @@
         <h2>Picks</h2>
         <ul>
         {% for pick in page.match.picks %}
-            <li class"{{ pick.team }} {{ pick.type }}">{% assign heroSelect = pick.hero %}{% include hero-selector.html %}</li>
+            <li class="{{ pick.team }} {{ pick.type }}">{% assign heroSelect = pick.hero %}{% include hero-selector.html %}</li>
         {% endfor %}
     </div>
     <footer></footer>
