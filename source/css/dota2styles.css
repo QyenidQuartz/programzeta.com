@@ -78,11 +78,17 @@ a:hover {
     background:      -o-linear-gradient(left, rgba(168,56,6,1), rgba(168,56,6,0));   
     background:         linear-gradient(to left, rgba(168,56,6,1), rgba(168,56,6,0));
 }
-#picks .ban img.ban {
-    float:right;
+#picks img.ban {
     z-index:10;
     width:120px;
     height:auto;
+    position:relative;
+}
+#picks .radiant img.ban {
+	float:right;
+}
+#picks .dire img.ban {
+	float:left;
 }
 .teamName {
 	font-size:2em;
