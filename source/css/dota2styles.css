@@ -27,7 +27,8 @@ a:hover {
 	height:auto;
 }
 
-#picks div {
+#picks li {
+	display:block;
 	width:300px;
 }
 
