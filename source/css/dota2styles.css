@@ -29,6 +29,9 @@ a:hover {
 	width:120px;
 	height:auto;
 }
+#matchInformation {
+	text-align: center;
+}
 
 #picks ul {
 	margin-left:auto;
@@ -43,6 +46,7 @@ a:hover {
 }
 #picks li .heroName {
 	text-align:center;
+	width:120px;
 }
 
 #picks .radiant {

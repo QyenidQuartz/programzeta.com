@@ -9,7 +9,15 @@
     <header></header>
     <div id="matchInfo">
         <h2>Match Information</h2>
+        <div id="matchDetails">
+            <p id="tournament">{{ page.match.info.tournament }}</p>
+            {% if page.match.info.phase %}
+            <p id="phase">{{ page.match.info.phase }}</p>
+            {% endif %}
+            <p id="matchDate">{{ page.match.info.date }}</p>
+        </div>
         <div id="watchMatch">
+            <h3>Watch Match</h3>
             {% if page.match.links.in-game %}
             <p><a href="{{ page.match.links.in-game }}">Click here to watch in-game (may require in-game pass)</a></p>
             {% endif %}
