@@ -90,17 +90,15 @@ a:hover {
 
 #awayTeam {
 	border-radius:20px;
-	border:10px solid;
-	border-right-color:gray;
-	border-top-color:black;
-	border-bottom-color:black;
-	border-left-color:black;
+	border:1px solid;
+	border-right-color:black;
+	border-top-color:gray;
+	box-shadow: 1px 2px 4px #000000;
 }
 #homeTeam {
 	border-radius:20px;
-	border:10px solid;
-	border-left-color:gray;
-	border-top-color:black;
-	border-bottom-color:black;
-	border-right-color:black;
+	border:1px solid;
+	border-left-color:black;
+	border-top-color:gray;
+	box-shadow: -1px 2px 4px #000000;
 }
