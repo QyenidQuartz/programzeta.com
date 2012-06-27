@@ -31,12 +31,14 @@ a:hover {
 }
 
 #picks ul {
+	display:block;
 	width:600px;
 }
 
 #picks li {
 	display:block;
 	width:300px;
+	padding:20px;
 }
 
 #picks .radiant {
