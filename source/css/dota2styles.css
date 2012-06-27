@@ -49,6 +49,10 @@ a:hover {
 	width:120px;
 }
 
+#picks .radiant .heroName {
+	margin-left:auto;
+}
+
 #picks .radiant {
 	text-align: right;
 	margin-right:200px;
