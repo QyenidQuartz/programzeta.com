@@ -26,19 +26,23 @@ a:hover {
 	color:#CFCFCF;
 }
 .heroImage img {
-	width:100px;
+	width:120px;
 	height:auto;
 }
 
 #picks ul {
-	display:block;
+	margin-left:auto;
+	margin-right:auto;
 	width:600px;
 }
 
 #picks li {
 	display:block;
 	width:300px;
-	padding:20px;
+	padding:10px;
+}
+#picks li heroName {
+	text-align:center;
 }
 
 #picks .radiant {
