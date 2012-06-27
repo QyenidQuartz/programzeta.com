@@ -41,7 +41,7 @@ a:hover {
 	width:300px;
 	padding:10px;
 }
-#picks li heroName {
+#picks li .heroName {
 	text-align:center;
 }
 
@@ -72,4 +72,7 @@ a:hover {
 }
 #picks .pick {
 
+}
+.teamName {
+	font-size:2em;
 }
