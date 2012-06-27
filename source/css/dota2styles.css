@@ -12,7 +12,9 @@ div {
 #awayTeam, #homeTeam {
 	display:inline-block;
 	width:500px;
+	margin:50px;
 }
 #awayTeam div, #awayTeam table, #homeTeam div, #homeTeam table {
-	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
 }

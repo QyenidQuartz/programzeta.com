@@ -27,7 +27,7 @@
                         {% for player in page.match.team.away.players %}
                         <tr>
                             <td>{{ player.name }}</td>
-                            <td>{{ player.hero }}</td>
+                            <td>{% assign heroSelect = player.hero %}{% include hero-selector.html %}</td>
                         </tr>
                         {% endfor %}
                     </tbody>
