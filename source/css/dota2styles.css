@@ -26,3 +26,32 @@ a:hover {
 	width:100px;
 	height:auto;
 }
+
+#picks div {
+	width:300px;
+}
+
+#picks .radiant {
+    background-color: #598307;
+    background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(89,131,7,1)), to(rgba(89,131,7,0))));   
+    background-image: -webkit-linear-gradient(right, rgba(89,131,7,1), rgba(89,131,7,0)));   
+    background-image:    -moz-linear-gradient(right, rgba(89,131,7,1), rgba(89,131,7,0)));   
+    background-image:     -ms-linear-gradient(right, rgba(89,131,7,1), rgba(89,131,7,0)));   
+    background-image:      -o-linear-gradient(right, rgba(89,131,7,1), rgba(89,131,7,0)));   
+    background-image:         linear-gradient(to right, rgba(89,131,7,1), rgba(89,131,7,0)));
+}
+#picks .dire {
+    background-color: #A83806;
+    background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(168,56,6,1)), to(rgba(168,56,6,0))));   
+    background-image: -webkit-linear-gradient(right, rgba(168,56,6,1), rgba(168,56,6,0)));   
+    background-image:    -moz-linear-gradient(right, rgba(168,56,6,1), rgba(168,56,6,0)));   
+    background-image:     -ms-linear-gradient(right, rgba(168,56,6,1), rgba(168,56,6,0)));   
+    background-image:      -o-linear-gradient(right, rgba(168,56,6,1), rgba(168,56,6,0)));   
+    background-image:         linear-gradient(to right, rgba(168,56,6,1), rgba(168,56,6,0)));
+}
+#picks .ban {
+
+}
+#picks .pick {
+
+}

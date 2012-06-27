@@ -8,7 +8,7 @@
 <body>
     <header></header>
     <div id="matchInfo">
-        <div id=""
+        <h2>Match Information</h2>
         <div id="watchMatch">
             {% if page.match.links.in-game %}
             <p><a href="{{ page.match.links.in-game }}">Click here to watch in-game (may require in-game pass)</a></p>
@@ -19,6 +19,7 @@
         </div>
     </div>
     <div id="teams">
+        <h2>Teams</h2>
         <div id="awayTeam">
             {% assign teamSelect = page.match.team.away %}
             {% include team-selector.html %}
@@ -51,9 +52,10 @@
         </div>
     </div>
     <div id="picks">
+        <h2>Picks</h2>
         <ul>
         {% for pick in page.match.picks %}
-            <li>{{ pick.team }} - {{ pick.hero }}</li>
+            <li class"{{ pick.team }}">{% assign heroSelect = pick.hero %}{% include hero-selector.html %}</li>
         {% endfor %}
     </div>
     <footer></footer>
