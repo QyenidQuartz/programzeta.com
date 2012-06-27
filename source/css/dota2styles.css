@@ -22,3 +22,7 @@ a:link, a:visited {
 a:hover {
 	color:#CFCFCF;
 }
+.heroImage img {
+	width:100px;
+	height:auto;
+}
