@@ -6,6 +6,9 @@ body {
 #teams {
 	text-align:center;
 }
+#picks {
+	text-align:center;
+}
 #awayTeam, #homeTeam {
 	display:inline-block;
 	width:500px;
@@ -36,23 +39,23 @@ a:hover {
 	text-align: right;
 	margin-right:200px;
     background: #598307;
-    background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(89,131,7,1)), to(rgba(89,131,7,0))));   
-    background-image: -webkit-linear-gradient(right, rgba(89,131,7,1), rgba(89,131,7,0));   
-    background-image:    -moz-linear-gradient(right, rgba(89,131,7,1), rgba(89,131,7,0));   
-    background-image:     -ms-linear-gradient(right, rgba(89,131,7,1), rgba(89,131,7,0));   
-    background-image:      -o-linear-gradient(right, rgba(89,131,7,1), rgba(89,131,7,0));   
-    background-image:         linear-gradient(to right, rgba(89,131,7,1), rgba(89,131,7,0));
+    background: -webkit-gradient(linear, right top, left bottom, from(rgba(89,131,7,1)), to(rgba(89,131,7,0))));   
+    background: -webkit-linear-gradient(right, rgba(89,131,7,1), rgba(89,131,7,0));   
+    background:    -moz-linear-gradient(right, rgba(89,131,7,1), rgba(89,131,7,0));   
+    background:     -ms-linear-gradient(right, rgba(89,131,7,1), rgba(89,131,7,0));   
+    background:      -o-linear-gradient(right, rgba(89,131,7,1), rgba(89,131,7,0));   
+    background:         linear-gradient(to right, rgba(89,131,7,1), rgba(89,131,7,0));
 }
 #picks .dire {
 	text-align: left;
 	margin-left:200px;
     background: #A83806;
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(168,56,6,1)), to(rgba(168,56,6,0))));   
-    background-image: -webkit-linear-gradient(left, rgba(168,56,6,1), rgba(168,56,6,0));   
-    background-image:    -moz-linear-gradient(left, rgba(168,56,6,1), rgba(168,56,6,0));   
-    background-image:     -ms-linear-gradient(left, rgba(168,56,6,1), rgba(168,56,6,0));   
-    background-image:      -o-linear-gradient(left, rgba(168,56,6,1), rgba(168,56,6,0));   
-    background-image:         linear-gradient(to left, rgba(168,56,6,1), rgba(168,56,6,0));
+    background: -webkit-gradient(linear, left top, right bottom, from(rgba(168,56,6,1)), to(rgba(168,56,6,0))));   
+    background: -webkit-linear-gradient(left, rgba(168,56,6,1), rgba(168,56,6,0));   
+    background:    -moz-linear-gradient(left, rgba(168,56,6,1), rgba(168,56,6,0));   
+    background:     -ms-linear-gradient(left, rgba(168,56,6,1), rgba(168,56,6,0));   
+    background:      -o-linear-gradient(left, rgba(168,56,6,1), rgba(168,56,6,0));   
+    background:         linear-gradient(to left, rgba(168,56,6,1), rgba(168,56,6,0));
 }
 #picks .ban {
 
