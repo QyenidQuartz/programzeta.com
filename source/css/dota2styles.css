@@ -82,13 +82,13 @@ a:hover {
     z-index:10;
     width:120px;
     height:auto;
-    position:relative;
 }
 #picks .radiant img.ban {
-	float:right;
+    position: absolute;
+    right:0px;
 }
 #picks .dire img.ban {
-	float:left;
+    position: absolute;
 }
 .teamName {
 	font-size:2em;
