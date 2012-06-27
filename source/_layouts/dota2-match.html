@@ -66,7 +66,7 @@
             <li class="{{ pick.team }} {{ pick.type }}">
                 {% if pick.type == 'ban' %}
                 <img class="ban" src="/assets/heroes/Ban.png" />
-                {$ endif %}
+                {% endif %}
                 {% assign heroSelect = pick.hero %}{% include hero-selector.html %}
             </li>
         {% endfor %}
