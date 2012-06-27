@@ -26,7 +26,7 @@ a:hover {
 	color:#CFCFCF;
 }
 .heroImage img {
-	width:120px;
+	width:150px;
 	height:auto;
 }
 #matchInfo {
@@ -46,6 +46,9 @@ a:hover {
 }
 #picks li .heroName {
 	text-align:center;
+	width:120px;
+}
+#picks .heroImage img {
 	width:120px;
 }
 
