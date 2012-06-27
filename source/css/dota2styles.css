@@ -78,12 +78,11 @@ a:hover {
     background:      -o-linear-gradient(left, rgba(168,56,6,1), rgba(168,56,6,0));   
     background:         linear-gradient(to left, rgba(168,56,6,1), rgba(168,56,6,0));
 }
-#picks .ban img {
-    backgound: url('/assets/heroes/Ban.png');
-}
-#picks .pick img {
-	backgound: url('/assets/heroes/Ban.png');
-
+#picks .ban img.ban {
+    float:right;
+    z-index:10;
+    width:120px;
+    height:auto;
 }
 .teamName {
 	font-size:2em;
