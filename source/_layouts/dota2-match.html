@@ -22,9 +22,16 @@
         {% assign teamSelect = page.match.team.away %}
         {% include team-selector.html %}
         <div>
-            {% for player in page.match.team.home.players %}
-
-            {% endfor %}
+            <table>
+                <tbody>
+                    {% for player in page.match.team.away.players %}
+                    <tr>
+                        <td>{{ player.name }}</td>
+                        <td>{{ player.hero }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+        </table>
         </div>
     </div>
     <div id="homeTeam">
