@@ -84,8 +84,7 @@ a:hover {
     height:auto;
 }
 #picks .radiant img.ban {
-    position: absolute;
-    right:0px;
+    position: fixed;
 }
 #picks .dire img.ban {
     position: absolute;
