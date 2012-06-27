@@ -85,6 +85,7 @@ a:hover {
 }
 #picks .radiant img.ban {
     position:relative;
+    top: 100px;
 }
 #picks .dire img.ban {
     position: absolute;
