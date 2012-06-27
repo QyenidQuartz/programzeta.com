@@ -87,3 +87,20 @@ a:hover {
 .teamName {
 	font-size:2em;
 }
+
+#awayTeam {
+	border-radius:20px;
+	border:10px solid;
+	border-right-color:gray;
+	border-top-color:black;
+	border-bottom-color:black;
+	border-left-color:black;
+}
+#homeTeam {
+	border-radius:20px;
+	border:10px solid;
+	border-left-color:gray;
+	border-top-color:black;
+	border-bottom-color:black;
+	border-right-color:black;
+}
