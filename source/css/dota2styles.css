@@ -91,14 +91,14 @@ a:hover {
 #awayTeam {
 	border-radius:20px;
 	border:1px solid;
-	border-right-color:black;
+	border-left-color:black;
 	border-top-color:gray;
 	box-shadow: 1px 2px 4px #000000;
 }
 #homeTeam {
 	border-radius:20px;
 	border:1px solid;
-	border-left-color:black;
+	border-right-color:black;
 	border-top-color:gray;
 	box-shadow: -1px 2px 4px #000000;
 }
