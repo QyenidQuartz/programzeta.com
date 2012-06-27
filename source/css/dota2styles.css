@@ -6,3 +6,13 @@ body {
 div {
 	border:1px solid #B7B7B4;
 }
+#teams {
+	text-align:center;
+}
+#awayTeam, #homeTeam {
+	display:inline-block;
+	width:500px;
+}
+#awayTeam div, #awayTeam table, #homeTeam div, #homeTeam table {
+	text-align:center;
+}

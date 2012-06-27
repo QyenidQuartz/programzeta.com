@@ -18,36 +18,36 @@
             {% endfor %}
         </div>
     </div>
-    <div id="awayTeam">
-        {% assign teamSelect = page.match.team.away %}
-        {% include team-selector.html %}
-        <div>
+    <div id="teams">
+        <div id="awayTeam">
+            {% assign teamSelect = page.match.team.away %}
+            {% include team-selector.html %}
             <table>
-                <tbody>
-                    {% for player in page.match.team.away.players %}
-                    <tr>
-                        <td>{{ player.name }}</td>
-                        <td>{{ player.hero }}</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-        </table>
+                    <tbody>
+                        {% for player in page.match.team.away.players %}
+                        <tr>
+                            <td>{{ player.name }}</td>
+                            <td>{{ player.hero }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+            </table>
         </div>
-    </div>
-    <div id="homeTeam">
-        {% assign teamSelect = page.match.team.home %}
-        {% include team-selector.html %}
-        <div>
-            <table>
-                <tbody>
-                    {% for player in page.match.team.home.players %}
-                    <tr>
-                        <td>{{ player.name }}</td>
-                        <td>{{ player.hero }}</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-        </table>
+        <div id="homeTeam">
+            {% assign teamSelect = page.match.team.home %}
+            {% include team-selector.html %}
+            <div>
+                <table>
+                    <tbody>
+                        {% for player in page.match.team.home.players %}
+                        <tr>
+                            <td>{{ player.name }}</td>
+                            <td>{{ player.hero }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+            </table>
+            </div>
         </div>
     </div>
     <div id="picks">
