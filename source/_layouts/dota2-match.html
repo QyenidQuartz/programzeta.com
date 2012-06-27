@@ -6,8 +6,9 @@
     <link rel="stylesheet" type="text/css" href="/css/dota2styles.css">
 </head>
 <body>
-    <header><h1>{{ page.title }}</h1></header>
+    <header></header>
     <div id="matchInfo">
+        <div id=""
         <div id="watchMatch">
             {% if page.match.links.in-game %}
             <p><a href="{{ page.match.links.in-game }}">Click here to watch in-game (may require in-game pass)</a></p>
@@ -20,11 +21,26 @@
     <div id="awayTeam">
         {% assign teamSelect = page.match.team.away %}
         {% include team-selector.html %}
+        <div>
+            {% for player in page.match.team.home.players %}
+
+            {% endfor %}
+        </div>
     </div>
     <div id="homeTeam">
         {% assign teamSelect = page.match.team.home %}
         {% include team-selector.html %}
         <div>
+            <table>
+                <tbody>
+                    {% for player in page.match.team.home.players %}
+                    <tr>
+                        <td>{{ player.name }}</td>
+                        <td>{{ player.hero }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+        </table>
         </div>
     </div>
     <div id="picks">
@@ -35,4 +51,4 @@
     </div>
     <footer></footer>
 </body>
-</html>
+</html> 
