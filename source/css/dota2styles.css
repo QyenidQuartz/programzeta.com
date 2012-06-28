@@ -130,6 +130,10 @@ header {
     font-size:2em;
 }
 
+#gameHeader a, #tournamentHeader a {
+    display:inline-block;
+}
+
 #matchInfo div {
     display:inline-block;
 }
