@@ -19,10 +19,8 @@
     <div id="matchInfo">
         <h2>Match Information</h2>
         <div id="matchDetails">
-            <p id="tournament">{{ page.match.info.tournament }}</p>
-            {% if page.match.info.phase %}
-            <p id="phase">{{ page.match.info.phase }}</p>
-            {% endif %}
+            <h3>Match Details</h3>
+            <p id="tournament">{{ page.match.info.tournament }}{% if page.match.info.phase %} - {{ page.match.info.phase }}{% endif %}</p>
             <p id="matchDate">{{ page.match.info.date }}</p>
         </div>
         <div id="watchMatch">
