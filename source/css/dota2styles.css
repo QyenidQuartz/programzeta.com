@@ -118,8 +118,18 @@ header {
 
 #gameHeader, #tournamentHeader {
 	display:inline-block;
+    width:600px;
+    border-radius:10px;
+    border:1px solid;
+    border-color:black;
+    border-bottom-color:gray;
+    margin:20px;
 }
 
 #gameHeader p, #tournamentHeader p {
     font-size:2em;
+}
+
+#matchinfo div {
+    display:inline-block;
 }
