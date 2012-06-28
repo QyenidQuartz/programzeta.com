@@ -111,3 +111,11 @@ a:hover {
 	border-top-color:gray;
 	box-shadow: -1px 2px 4px #000000;
 }
+
+header {
+	text-align: center;
+}
+
+#gameHeader, #tournamentHeader {
+	display:inline-block;
+}
