@@ -328,5 +328,5 @@
 {% assign heroLink = 'http://www.dota2wiki.com/wiki/Heroes' %}
 {% endcase %}
 
-<div class="heroImage"><a href="{{ heroLink }}"><img src="/assets/heroes/{{ heroImage }}" /></a></div>
-<div class="heroName"><a href="{{ heroLink }}">{{ heroSelect }}</a></div>
+<a href="{{ heroLink }}"><div class="heroImage"><img src="/assets/heroes/{{ heroImage }}" /></div>
+<div class="heroName">{{ heroSelect }}</div></a>
