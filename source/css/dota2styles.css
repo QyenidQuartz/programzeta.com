@@ -119,3 +119,7 @@ header {
 #gameHeader, #tournamentHeader {
 	display:inline-block;
 }
+
+#gameHeader p, #tournamentHeader p {
+    font-size:2em;
+}
