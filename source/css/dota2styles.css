@@ -122,7 +122,6 @@ header {
 #gameHeader, #tournamentHeader {
 	display:inline-block;
     width:550px;
-    height:500px;
     border-radius:10px;
     border:1px solid;
     border-color:black;
