@@ -128,6 +128,8 @@ header {
     border-bottom-color:gray;
     margin:20px 30px;
     background-color:black;
+    position:absolute;
+    top:20px;
 }
 
 #gameHeader p, #tournamentHeader p {
