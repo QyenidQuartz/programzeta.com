@@ -28,7 +28,7 @@
         <div id="watchMatch">
             <h3>Watch Match</h3>
             {% if page.match.links.in-game %}
-            <p><a href="{{ page.match.links.in-game }}">Click here to watch in-game (may require in-game pass)</a></p>
+            <p><a href="{{ page.match.links.in-game }}">In-game (requires ticket)</a></p>
             {% endif %}
             {% for vod in page.match.links.vods %}
                 <p><a href="{{ vod.link }}">Casted by {{ vod.caster }}</a></p>

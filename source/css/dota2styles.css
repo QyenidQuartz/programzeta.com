@@ -100,6 +100,7 @@ a:hover {
 #awayTeam, #homeTeam {
 	border-radius:20px;
 	border:1px solid;
+	padding:10px;
 }
 
 #awayTeam {
@@ -149,6 +150,7 @@ h2 {
     display:inline-block;
     margin:20px;
     clear:both;
+    width:500px;
 }
 .wrapper {
 	display:inline-block;
