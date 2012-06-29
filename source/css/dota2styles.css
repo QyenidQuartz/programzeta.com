@@ -117,6 +117,7 @@ a:hover {
 
 header {
 	text-align: center;
+	position:relative;
 }
 
 #gameHeader, #tournamentHeader {
@@ -129,7 +130,7 @@ header {
     margin:20px 30px;
     background-color:black;
     position:absolute;
-    top:20px;
+    top:0px;
 }
 
 #gameHeader p, #tournamentHeader p {
