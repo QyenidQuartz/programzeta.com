@@ -133,6 +133,10 @@ header {
     float:left;
 }
 
+h2 {
+	clear:both;
+}
+
 #gameHeader p, #tournamentHeader p {
     font-size:2em;
 }
@@ -144,4 +148,5 @@ header {
 #matchInfo div {
     display:inline-block;
     margin:20px;
+    clear:both;
 }
