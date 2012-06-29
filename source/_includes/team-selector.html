@@ -1,10 +1,16 @@
 {% case teamSelect.name  %}
 {% when "compLexity Gaming" %}
 {% assign teamAbbr = 'coL' %}
-{% assign teamImage = 'compLexity-Gaming.png' %}
+{% assign teamImage = 'compLexity_Gaming.png' %}
 {% when "Moscow Five" %}
 {% assign teamAbbr = 'M5' %}
-{% assign teamImage = 'Moscow-Five.png' %}
+{% assign teamImage = 'Moscow_Five.png' %}
+{% when "Copenhagen Wolves" %}
+{% assign teamAbbr = 'Wolves' %}
+{% assign teamImage = 'Copenhagen_Wolves.png' %}
+{% when "Counter Logic Gaming" %}
+{% assign teamAbbr = 'CLG' %}
+{% assign teamImage = 'Counter_Logic_Gaming.png' %}
 {% else %}
 {% assign teamAbbr = '???' %}
 {% assign teamImage = 'Unknown-Team.png' %}
