@@ -124,6 +124,7 @@ header {
     border-color:black;
     border-bottom-color:gray;
     margin:20px;
+    background-color:black;
 }
 
 #gameHeader p, #tournamentHeader p {
