@@ -150,3 +150,6 @@ h2 {
     margin:20px;
     clear:both;
 }
+.wrapper {
+	display:inline-block;
+}
