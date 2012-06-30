@@ -193,3 +193,10 @@ h2 {
 .instructions {
 	text-align: center;
 }
+
+.note {
+	padding:10px;
+	background:#963222;
+	color:#BCBCBC;
+	font-size:1.2em;
+}
