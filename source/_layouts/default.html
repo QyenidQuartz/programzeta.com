@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+    <header><h1>{{ page.title }}</h1></header>
+    <div id="sidebar">
+        <ul>
+            <li>Projects
+                <ul>
+                    <li><a href="">Team Fortress 2 Closed Captions</a></li>
+                </ul>
+            </li>
+            <li>On the Web
+                <ul>
+                    <li><a href="http://twitch.tv/programzeta">Twitch.tv</a></li>
+                    <li><a href="http://twitter.com/programzeta">Twitter</a></li>
+                    <li><a href="http://youtube.com/programzeta">YouTube</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id="main">
+        {{ content }}
+    </div>
+    <footer></footer>
+</body>
+</html>

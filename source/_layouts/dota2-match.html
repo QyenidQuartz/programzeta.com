@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/dota2styles.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div id="gameHeader">
+                <a href="http://dota2.com"><p id="gameImage"><img src="/assets/games/dota2.png" /></p>
+                <p id="gameTitle">Dota 2</p></a>
+            </div>
+            <div id="tournamentHeader">
+                <a href="http://the-defense.com"><p id="tournamentImage"><img src="/assets/tournaments/theDefense.png" /></p>
+                <p id="tournamentTitle">The Defense</p></a>
+            </div>
+        </div>
+    </header>
+    <div id="matchInfo">
+        <h2>Match Information</h2>
+        {{ content }}
+        <div id="matchDetails">
+            <h3>Match Details</h3>
+            <p id="tournament">{{ page.match.info.tournament }}{% if page.match.info.phase %} - {{ page.match.info.phase }}{% endif %}</p>
+            <p id="matchDate">{{ page.match.info.date }}</p>
+        </div>
+        <div id="watchMatch">
+            <h3>Watch Match</h3>
+            {% if page.match.links.in-game %}
+            <p><a href="{{ page.match.links.in-game }}">In-game (requires ticket)</a></p>
+            {% endif %}
+            {% for vod in page.match.links.vods %}
+                <p><a href="{{ vod.link }}">Casted by {{ vod.caster }}</a></p>
+            {% endfor %}
+        </div>
+    </div>
+    <div id="teams">
+        <h2>Teams</h2>
+        <div id="awayTeam">
+            {% assign teamSelect = page.match.team.away %}
+            {% include team-selector.html %}
+            <table>
+                    <tbody>
+                        {% for player in page.match.team.away.players %}
+                        <tr>
+                            <td>{{ player.name }}</td>
+                            <td>{% assign heroSelect = player.hero %}{% include hero-selector.html %}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+            </table>
+        </div>
+        <div id="homeTeam">
+            {% assign teamSelect = page.match.team.home %}
+            {% include team-selector.html %}
+            <div>
+                <table>
+                    <tbody>
+                        {% for player in page.match.team.home.players %}
+                        <tr>
+                            <td>{% assign heroSelect = player.hero %}{% include hero-selector.html %}</td>
+                            <td>{{ player.name }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+            </table>
+            </div>
+        </div>
+    </div>
+    <div id="picks">
+        <h2>Picks</h2>
+        <ul>
+        {% for pick in page.match.picks %}
+            <li class="{{ pick.team }} {{ pick.type }}">
+                {% if pick.type == 'ban' %}
+                <img class="ban" src="/assets/heroes/Ban.png" />
+                {% endif %}
+                {% assign heroSelect = pick.hero %}{% include hero-selector.html %}
+            </li>
+        {% endfor %}
+    </div>
+    <footer></footer>
+</body>
+</html> 
