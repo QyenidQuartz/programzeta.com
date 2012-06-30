@@ -11,7 +11,7 @@ h1 {
 	text-align: center;
 }
 #main {
-	width:auto;
+	width:100%;
 }
 #teams {
 	text-align:center;
@@ -188,4 +188,8 @@ h2 {
 
 .vs {
 	width:100px;
+}
+
+.instructions {
+	text-align: center;
 }
