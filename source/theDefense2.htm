@@ -6,7 +6,7 @@ title: The Defense Season 2 - ProgramZeta.com
     <div id="posts">
         {% for post in site.posts %}
         	{% if post.match.info.tournament == 'The Defense Season 2' %}
-                <a match href="{{ post.url }}">
+                <a class="match" href="{{ post.url }}">
                     <div class="awayTeam">
                         {% assign teamSelect = post.match.team.away %}
                         {% include team-selector.html %}
