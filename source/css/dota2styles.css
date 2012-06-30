@@ -170,6 +170,15 @@ h2 {
 }
 .match {
 	text-align:center;
+	display:block;
+	padding: 10px;
+    border-radius:10px;
+    border:1px solid;
+    border-color:black;
+    border-bottom-color:gray;
+    margin:20px 30px;
+    background-color:black;
+
 }
 
 .awayTeam, .homeTeam, .vs {
