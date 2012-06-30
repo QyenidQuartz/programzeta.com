@@ -7,6 +7,10 @@ img {
 	border:none;
 }
 
+h1 {
+	text-align: center;
+}
+
 #teams {
 	text-align:center;
 }
@@ -161,4 +165,12 @@ h2 {
 }
 .wrapper {
 	display:inline-block;
+}
+.match {
+	text-align:center;
+}
+
+.awayTeam, .homeTeam, .vs {
+	display:inline-block;
+	width:500px;
 }
