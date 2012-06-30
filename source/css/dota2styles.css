@@ -10,7 +10,9 @@ img {
 h1 {
 	text-align: center;
 }
-
+#main {
+	width:auto;
+}
 #teams {
 	text-align:center;
 }
@@ -173,4 +175,8 @@ h2 {
 .awayTeam, .homeTeam, .vs {
 	display:inline-block;
 	width:500px;
+}
+
+.vs {
+	width:100px;
 }
